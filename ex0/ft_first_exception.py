@@ -1,9 +1,9 @@
-def input_temperature(temp_str) -> int:
+def input_temperature(temp_str: str) -> int:
     temp_int = int(temp_str)
     return (temp_int)
 
 
-def test_temperature(temp_str) -> None:
+def test_temperature(temp_str: str) -> None:
     try:
         input_temperature(temp_str)
     except ValueError as e:
